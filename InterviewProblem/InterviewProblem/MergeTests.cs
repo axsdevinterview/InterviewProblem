@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace InterviewProblem
 {
     [TestClass]
-    public class UnitTest1
+    public class MergeTests
     {
         [TestMethod]
         public void MergeEqualItemsTest()
