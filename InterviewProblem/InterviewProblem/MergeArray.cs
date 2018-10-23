@@ -10,7 +10,9 @@ namespace InterviewProblem
     {
         public static char[] Merge(char[] array1, char[] array2)
         {
-            throw new NotImplementedException();
+            var actualMergedArray = array1.Union(array2).ToArray();
+
+            return actualMergedArray;
         }
     }
 }
