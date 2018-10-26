@@ -10,7 +10,19 @@ namespace InterviewProblem
     {
         public static char[] Merge(char[] array1, char[] array2)
         {
-            throw new NotImplementedException();
+            List<char> array3 = new List<char>();
+            for (int i=0; i < array1.Length; i++)
+            {
+                for(int j=0; j<array2.Length; j++)
+                {
+                    array3.Add(array1[i]);
+                    array3.Add(array2[j]);
+                    i++;
+                }
+            }
+            return array3.ToArray();
+
+
         }
     }
 }
